@@ -1,12 +1,13 @@
 
 
 # ---------- Imports ----------
-import os
 import requests
 from PIL import Image, ImageOps, ImageFilter
 import io
 import numpy as np
 import time
+import os
+
 
 # ---------- Config ----------
 API_KEY=os.environ.get("API_KEY")
@@ -21,9 +22,7 @@ MIN_ATTR_CONF = {
     "eyes": 30,
     "lips": 30,
     "age_est": 30,
-    "gend$ git add .
-git commit -m "Removed invalid syntax from analyzer"
-git push -u origin mainer": 30,
+    "gender": 30,
     "liveness": 30
 }
 
