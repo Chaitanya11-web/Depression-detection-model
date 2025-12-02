@@ -1,4 +1,4 @@
-!pip install requests pillow
+
 
 # ---------- Imports ----------
 import requests
