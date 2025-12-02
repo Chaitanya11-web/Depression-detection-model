@@ -7,10 +7,13 @@ from PIL import Image, ImageOps, ImageFilter
 import io
 import numpy as np
 import time
+import os
 
 # ---------- Config ----------
-API_KEY = "v79ft2g4sooqak49j253794905"
-API_SECRET = "36fvadd4h0htf6qrhsqtc9ss33"
+API_KEY=os.environ.get("API_KEY")
+API_SECRET=os.environ.get("API_SECRET")
+# API_KEY = "v79ft2g4sooqak49j253794905"
+# API_SECRET = "36fvadd4h0htf6qrhsqtc9ss33"
 SKYBIOMETRY_URL = "https://api.skybiometry.com/fc/faces/detect.json"
 
 # Minimum confidences for using an attribute reliably (tunable)
