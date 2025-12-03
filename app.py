@@ -8,7 +8,7 @@ CORS(app)   # allow MERN frontend to call API
 
 @app.route("/", methods=["GET"])
 def home():
-    return jsonify({"status": "OK", "message": "Mental State Analyzer API is running"})
+    return jsonify({"status": "OK", "message": "Mental State Analyzer model is running"})
 
 @app.route("/analyze", methods=["POST"])
 def analyze():
